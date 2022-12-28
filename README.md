@@ -1,4 +1,4 @@
-**__Introduction__**
+<h1 align="center">Introduction</h1>
 
 This DDoS attack python script is an experimental tool meant to be used for educational and research purposes only. It is not intended to be used to launch attacks against any systems or networks. Please use this script responsibly, making sure to have the proper permissions and authorization before running any code. This script is provided “as is” and the author makes no warranties or guarantees as to its accuracy or safety. Use at your own risk.
 
