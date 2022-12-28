@@ -13,5 +13,6 @@ werkzeug,
 suppress
 
 Installation:
-git clone https://github.com/SusanSantos7/XLIC-DDoS.git
-cd XLIC-DDoS
+```
+git clone https://github.com/SusanSantos7/XLIC-DDoS.git | cd XLIC-DDoS
+```
