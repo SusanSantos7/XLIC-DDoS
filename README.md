@@ -6,6 +6,9 @@ This script is a Distributed Denial of Service (DDoS) attack script. It uses a l
 
 This Python script is a serious the one which, if discovered or used without authorization, could land you in jail. It serves only educational purposes.
 
+**Why have I scripted it?**
+I've scripted this DDoS python script is just to demonstrate the power of distributed denial-of-service (DDoS) attacks. It is intended to be used as a tool to educate users on the risks of DDoS attacks and to illustrate the importance of taking measures to protect against them. So, I don't recommend to use it to hurt any system, please.
+
 **Requirements:** requests,
 threading,
 random,
