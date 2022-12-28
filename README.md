@@ -4,7 +4,7 @@ This script is a Distributed Denial of Service (DDoS) attack script. It uses a l
 
 This Python script is a serious the one which, if discovered or used without authorization, could land you in jail. It serves only educational purposes.
 
-Requirements: requests,
+**Requirements:** requests,
 threading,
 random,
 datetime,
@@ -12,7 +12,7 @@ contextlib,
 werkzeug,
 suppress
 
-Installation:
+**Installation:**
 ```
 git clone https://github.com/SusanSantos7/XLIC-DDoS.git | cd XLIC-DDoS
 ```
