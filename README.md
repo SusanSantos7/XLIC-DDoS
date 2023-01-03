@@ -4,6 +4,8 @@ This [DDoS attack](https://en.wikipedia.org/wiki/Denial-of-service_attack) pytho
 
 This script is a Distributed Denial of Service (DDoS) attack script. It uses a large number of malicious requests to overwhelm a server, making it unable to handle legitimate requests. It starts by sending a large number of requests to the specified URL with random headers. It then checks the response of the server and adjusts the attack parameters accordingly, increasing or decreasing the number of threads and packets sent. It also reads a malicious file and sends the malicious requests to the server. Finally, it starts the attack with the specified number of threads. It's sends ICMPs (Internet Control Message Protocol) to the website.
 
+Note that, this DDoS attack script is uncompleted yet, but it is fully working.
+
 This Python script is a serious the one which, if discovered or used without authorization, could land you in jail. It serves only educational purposes.
 
 **Why have I scripted it?**
